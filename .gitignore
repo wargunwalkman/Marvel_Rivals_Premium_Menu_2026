@@ -1,0 +1,29 @@
+# Marvel Rivals Performance Utility - Git Ignore
+# [Build Artifacts]
+*.exe
+*.dll
+*.exp
+*.lib
+*.pdb
+
+# [Intermediate Files]
+/Intermediate/
+/Saved/
+/Binaries/
+obj/
+*.log
+*.tlog
+*.lastbuildstate
+
+# [System & IDE]
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.doccache
+*.VC.db
+*.VC.opendb
+
+# [Temporary Assets]
+/Resources/Cache/
+__pycache__/
